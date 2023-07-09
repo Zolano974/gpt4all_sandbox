@@ -19,6 +19,6 @@ public class Toto {
     }
 
     public String getInfos(){
-        return this.msg + " " + String.valueOf(this.num);
+        return this.msg + " " + String.valueOf(this.num); 
     }
 }

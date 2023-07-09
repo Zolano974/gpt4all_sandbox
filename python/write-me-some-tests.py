@@ -9,8 +9,7 @@ model = GPT4All(model_name, model_path)
 
 # prepare question
 print("prepare question & context")
-question = "Can you write me a complete Junit5 test class containing the unit tests for all the functions inmplemented in code given to you as context ?"
-q2 = "Can you tell me if this is nice code ?"
+question = "Can you write me a complete Junit5 test class containing the unit tests for the Java class given to you as context ? I want you to output complete test class, including at least 1 test method for each methods in the codeprovided as context"
 
 # Prepare context : content from the file
 file_path = "../java/Toto.java"
